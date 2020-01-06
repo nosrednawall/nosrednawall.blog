@@ -114,15 +114,15 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = ""
+    url  = "www.linkedin.com/in/anderson-jose-de-souza-inacio"
 
   [[params.social]]
     name = "stackoverflow"
-    url  = ""
+    url  = "https://pt.stackoverflow.com/users/115290/nosrednawall"
 
 [languages]
   [languages.pt-br]
-    subtitle  = "Olá mundo"
+    subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -135,4 +135,3 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-
