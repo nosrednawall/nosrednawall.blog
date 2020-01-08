@@ -1,9 +1,6 @@
-#baseURL = "http://example.org/"
 languageCode = "pt-br"
-#title = "My New Hugo Site"
-#theme = "hello-friend-ng"
 
-baseURL = "https://nosrednawall.github.io"
+baseURL = "https://www.nosrednawall.com.br"
 title   = "Nosrednawall BLOG"
 
 DefaultContentLanguage = "pt-br"
@@ -94,10 +91,10 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd ~/"
     logoHomeLink = "/"
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoColor    = "#67a2c9"
+    logoColor    = "#67a2c9"
 
   # Social icons
   [[params.social]]
@@ -114,7 +111,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "www.linkedin.com/in/anderson-jose-de-souza-inacio"
+    url  = "https://linkedin.com/in/anderson-jose-de-souza-inacio"
 
   [[params.social]]
     name = "stackoverflow"
