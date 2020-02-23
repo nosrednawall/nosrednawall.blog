@@ -9,6 +9,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 hugo -t hello-friend-ng # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
+mkdir -p public
 cd public
 
 git pull
