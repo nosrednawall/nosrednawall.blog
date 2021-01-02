@@ -1,6 +1,6 @@
 languageCode = "pt-br"
 
-baseURL = "https://www.nosrednawall.com.br"
+baseURL = "https://nosrednawall.github.io"
 title   = "<h1>Anderson | Blog</h1>"
 
 DefaultContentLanguage = "pt-br"
