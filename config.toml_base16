@@ -1,12 +1,12 @@
 languageCode = "pt-br"
 
-baseURL = "https://www.nosrednawall.com.br"
-title   = "<h1>Anderson | Blog</h1>"
+baseURL = "https://www.nosrednawall.github.io"
+title   = "Anderson BLOG"
 
 DefaultContentLanguage = "pt-br"
 defaultcontentlanguageinsubdir = true
 
-theme = "hello-friend-ng"
+theme = "base16"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -38,13 +38,10 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/post/:year/:month/:title/"
 
 [author]
   name = "Anderson J S Inácio"
-
-[blackfriday]
-  hrefTargetBlank = false
 
 [taxonomies]
   tag      = "tags"
@@ -57,11 +54,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Abacate, Abacaxi"
-  keywords = "many things"
-  images = ["https://avatars3.githubusercontent.com/u/20650823?s=460&u=69790d7fc79a94365eaa5dc6278244d3c8398a71&v=4"]
+  description = "Animes, Linux, programação e K-Dramas"
+  keywords = "Linux,Animes,Progamação,K-Dramas"
+  images = [""]
 
-  homeSubtitle = "less /etc/passwd | grep $USER | cut -c 22-52 $1"
+  homeSubtitle = "Compartilhamento de conhecimento"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/nosrednawall/nosrednawall.github.io"
@@ -80,10 +77,6 @@ disableHugoGeneratorInject = false
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
   # Colors for favicons
   [params.favicon.color]
     mask = "#252627"
@@ -91,7 +84,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "#!/bin/sh"
+    logoText     = "$ cd ~/"
     logoHomeLink = "/"
     # Set to a valid CSS color to change the cursor in the logo.
     logoColor    = "#67a2c9"
@@ -132,3 +125,5 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+
